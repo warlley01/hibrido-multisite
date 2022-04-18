@@ -1,6 +1,6 @@
 # hibrido-multisite
 
---- Documentação ---
+-- Documentação --
 
 Criei duas Visões de Loja em ( Lojas -> Configurações -> Todas as Lojas )
 
