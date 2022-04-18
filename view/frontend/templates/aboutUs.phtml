@@ -1,0 +1,15 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+/** @var Hibrido\MultiSite\Block\AboutUsMultipleStoresIdentifier $block */
+?>
+<?php if ($block->isMultipleStore()): ?>
+        <link rel="alternate" hreflang="<?php echo $block->getStoreLanguage(); ?>" href="<?php echo $block->getStoreBaseUrl() . $block->getPageIdentifier(); ?>" />
+<?php endif ?>
+
+
+
+
+

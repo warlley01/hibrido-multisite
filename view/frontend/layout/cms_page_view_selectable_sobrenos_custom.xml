@@ -1,7 +1,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="head.additional">
-            <block class="Hibrido\MultiSite\Block\Widget\AboutUsMultipleStoresIdentifier" name="block_name" template="Hibrido_MultiSite::widget/aboutUs.phtml" />
+            <block class="Hibrido\MultiSite\Block\AboutUsMultipleStoresIdentifier" name="about_us" template="Hibrido_MultiSite::aboutUs.phtml" />
         </referenceBlock>
     </body>
 </page>
